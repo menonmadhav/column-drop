@@ -1,0 +1,175 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, a, code,
+em, img, small, b, u, i, center, ol, ul, li,
+fieldset, form, label, table, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas,
+footer, header, menu, nav, section, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+
+/* ===============
+   GENERAL STYLES
+   =============== */
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  color: teal;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*Typography*/
+h1 {
+  font-size: 2.5em;
+  line-height: 1;
+}
+h2 {
+  font-size: 2.2em;
+  line-height: 1.3em;
+  margin: 0.65em 0;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.25em;
+  margin-bottom: 0.75em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.container {
+	padding: 1em;
+	max-width: 1300px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+a {
+	color: #4F86C9;
+}
+
+a:hover {
+	color: #386396;
+}
+
+@media only screen and (min-width: 750px) {
+	body {
+		font-size: 1em;
+	}
+
+	.container {
+		padding: 2em;
+	}
+
+}
+header, footer {
+	background-color: orange;
+}
+
+.header-inner{
+	max-width: 1300px;
+	margin:0 auto;
+	padding: 1em;
+}
+nav ul li {
+	list-style: none;
+}
+@media only screen and (min-width: 750px) {
+	.header-inner {
+		padding: 1em 2em;
+	}
+}
+@media only screen and (min-width: 750px) {
+	nav ul li {
+		line-height: 2em;
+	}
+}
+.index .current-page {
+	display: none;
+}
+.index .btn-back {
+	display: none;
+}
+.main p {
+	max-width: 750px;
+}
+
+ul {
+	padding-left: 1.2em;
+}
+article > h3 {
+	margin-top:0;
+}
+
+body {
+  font-size: 1em;
+}
+
+header, section, aside, article {
+  padding:0.75em;
+}
+
+.header-inner {
+	max-width: 1330px;
+	overflow: auto;
+	margin:0 auto;
+}
+
+section h2, aside h3{
+	margin-top: 0;
+}
+
+aside ul {
+	margin:0;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 0.875em;
+  }
+  header, section {
+    padding:1em;
+    margin-bottom:1em;
+  }
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+}
